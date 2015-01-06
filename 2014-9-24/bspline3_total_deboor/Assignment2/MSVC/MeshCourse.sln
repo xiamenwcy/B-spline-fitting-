@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenMesh", "OpenMesh\OpenMesh.vcproj", "{90CEDDB6-32C4-49BD-AAC5-CE03E533BFDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03-Smoothing", "03-Smoothing\03-Smoothing.vcproj", "{74AF83EB-CAD0-4487-936C-951B33A09946}"
+	ProjectSection(ProjectDependencies) = postProject
+		{90CEDDB6-32C4-49BD-AAC5-CE03E533BFDD} = {90CEDDB6-32C4-49BD-AAC5-CE03E533BFDD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90CEDDB6-32C4-49BD-AAC5-CE03E533BFDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90CEDDB6-32C4-49BD-AAC5-CE03E533BFDD}.Debug|Win32.Build.0 = Debug|Win32
+		{90CEDDB6-32C4-49BD-AAC5-CE03E533BFDD}.Release|Win32.ActiveCfg = Release|Win32
+		{90CEDDB6-32C4-49BD-AAC5-CE03E533BFDD}.Release|Win32.Build.0 = Release|Win32
+		{74AF83EB-CAD0-4487-936C-951B33A09946}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74AF83EB-CAD0-4487-936C-951B33A09946}.Debug|Win32.Build.0 = Debug|Win32
+		{74AF83EB-CAD0-4487-936C-951B33A09946}.Release|Win32.ActiveCfg = Release|Win32
+		{74AF83EB-CAD0-4487-936C-951B33A09946}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
